@@ -1,0 +1,40 @@
+{
+    "director_id": "22c3ab98-815d-4f1c-5a7a-a8fac48fa28f",
+    "installation_id": "c7f8a2a8-6720-47b8-4873-7378cf25486c",
+    "current_vm_cid": "jqzibkxezxiiacfdefaultsa-63b76735-78fb-447a-6a09-c9ffa2d255f8",
+    "current_stemcell_id": "8facbce3-e528-4e14-6498-c6a0fd1ab7c4",
+    "current_disk_id": "c38b747d-d21f-446e-59d4-46b96ddbd855",
+    "current_release_ids": [
+        "557c59f7-bdc5-4deb-5ecf-2e5f2b04109c",
+        "99120c59-7cd3-4843-5f97-0b3e2651dbff"
+    ],
+    "current_manifest_sha1": "c1215fd1ccbd496c48100741ce0154844da0d2c6",
+    "disks": [
+        {
+            "id": "c38b747d-d21f-446e-59d4-46b96ddbd855",
+            "cid": "bosh-data-jqzibkxezxiiacfdefaultsa-e4980cde-da24-47f5-b51d-f996ed0a6c8b-None",
+            "size": 20000,
+            "cloud_properties": {}
+        }
+    ],
+    "stemcells": [
+        {
+            "id": "8facbce3-e528-4e14-6498-c6a0fd1ab7c4",
+            "name": "bosh-azure-hyperv-ubuntu-trusty-go_agent",
+            "version": "3263.7",
+            "cid": "bosh-stemcell-e8c38322-bd3d-4747-bd11-682f36ed36c2"
+        }
+    ],
+    "releases": [
+        {
+            "id": "557c59f7-bdc5-4deb-5ecf-2e5f2b04109c",
+            "name": "bosh",
+            "version": "257.15"
+        },
+        {
+            "id": "99120c59-7cd3-4843-5f97-0b3e2651dbff",
+            "name": "bosh-azure-cpi",
+            "version": "17"
+        }
+    ]
+}
